@@ -1,28 +1,28 @@
 class Sprat < Formula
   desc "Product manager for every Claude Code agent on your machine"
   homepage "https://sprat.dev"
-  version "0.4.3"
+  version "0.4.4"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.3/sprat-0.4.3-macos-arm64.tar.gz"
-      sha256 "4062e18a6bcd6c65c6afeafe788000b167ed5a07686afcada85366dffb835282"
+      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.4/sprat-0.4.4-macos-arm64.tar.gz"
+      sha256 "80743b09fb7503b3e398e35ccfa8595ab72f458a5639d42f3da5f46a14089e38"
     end
     on_intel do
-      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.3/sprat-0.4.3-macos-x86_64.tar.gz"
-      sha256 "5057fa2c57987b6695b4b543ca50441479a6755a84d063643211f7c1c5c2c470"
+      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.4/sprat-0.4.4-macos-x86_64.tar.gz"
+      sha256 "0bddca909f5d773634f4767f35f4370be4ab4e1aa558d066bbb9c902bf2cc3c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.3/sprat-0.4.3-linux-arm64.tar.gz"
-      sha256 "4c00f23c36327f736722a5d0a469fca3d58dbb39f4e78efb2b9a5af12c137dd5"
+      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.4/sprat-0.4.4-linux-arm64.tar.gz"
+      sha256 "7e2d39f0ed5e5535d3f72d87611b33f1b056ecfea1162751ec537851eb9bcc24"
     end
     on_intel do
-      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.3/sprat-0.4.3-linux-x86_64.tar.gz"
-      sha256 "de8a26fd51fc6bd65b1c38ac7b0b2bf30f1d2055fd234f0f7910fbb76aceef11"
+      url "https://github.com/sprathq/sprat-releases/releases/download/v0.4.4/sprat-0.4.4-linux-x86_64.tar.gz"
+      sha256 "38edfc2bc3f8ee080d2a0ae3ec81d18972a0846a400e35b591aad21e6dd68f42"
     end
   end
 
